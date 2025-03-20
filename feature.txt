@@ -1,0 +1,5 @@
+✅ Stop Alarm Button – Allows you to stop the alarm sound manually.
+✅ Snooze Button – Gives an extra 5-minute snooze option.
+✅ Better UI & Animations – Improved design with modern styles.
+✅ Clear Past Alarms Automatically – Removes old alarms when they ring.
+✅ Plays Alarm Until Stopped – Instead of a single beep, it loops the alarm sound until you stop it.s

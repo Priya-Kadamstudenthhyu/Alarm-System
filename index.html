@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Alarm with Reminder Note</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🔔 Alarm with Reminder Note</h1>
+
+        <label for="alarm-time">Set Alarm Time:</label>
+        <input type="datetime-local" id="alarm-time">
+
+        <label for="alarm-note">Add a Note:</label>
+        <textarea id="alarm-note" placeholder="Enter your reminder..."></textarea>
+
+        <button onclick="setAlarm()">Set Alarm</button>
+
+        <h2>⏰ Upcoming Alarms:</h2>
+        <ul id="alarm-list"></ul>
+
+        <div id="alarm-controls" class="hidden">
+            <button onclick="stopAlarm()">⏹ Stop Alarm</button>
+            <button onclick="snoozeAlarm()">⏳ Snooze 5 min</button>
+        </div>
+    </div>
+
+    <audio id="alarm-sound" src="C:\Users\Priya\Downloads\Alarm Clock Old-mobcupe.com.mp3" loop></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
